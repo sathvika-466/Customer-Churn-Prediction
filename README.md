@@ -214,20 +214,26 @@ Based on the analysis, businesses can reduce churn by:
 
 ## Project Structure
 
-```
+```text
 Customer-Churn-Prediction/
 │
-├── customer_churn_prediction.ipynb
-├── Telco-Customer-Churn.csv
-├── README.md
-├── requirements.txt
+├── data/
+│   └── Telco-Customer-Churn.csv
+│
+├── models/
+│   └── xgb_churn_model.pkl
+│
+├── notebooks/
+│   └── churn_prediction.ipynb
 │
 ├── plots/
 │   ├── churn_distribution.png
-│   ├── correlation_heatmap.png
-│   └── confusion_matrix.png
+│   ├── confusion_matrix.png
+│   └── correlation_heatmap.png
 │
-└── .gitignore
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -254,14 +260,12 @@ pip install -r requirements.txt
 
 Launch Jupyter Notebook:
 
+
 ```bash
-jupyter notebook
+jupyter notebook notebooks/churn_prediction.ipynb
 ```
 
-Open:
-
-```
-churn_prediction.ipynb
+4. Run all cells to reproduce the analysis and model training.
 ```
 
 ---
