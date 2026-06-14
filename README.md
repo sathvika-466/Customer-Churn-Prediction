@@ -36,34 +36,8 @@ This is a **binary classification problem**.
 
 ## Dataset
 
-**Dataset:** Telco Customer Churn Dataset
+**Dataset:** [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-The dataset contains customer demographics, account information, services subscribed, and billing details.
-
-### Features
-
-- Gender
-- Senior Citizen
-- Partner
-- Dependents
-- Tenure
-- Phone Service
-- Multiple Lines
-- Internet Service
-- Online Security
-- Online Backup
-- Device Protection
-- Tech Support
-- Streaming TV
-- Streaming Movies
-- Contract Type
-- Paperless Billing
-- Payment Method
-- Monthly Charges
-- Total Charges
-- Churn (Target)
-
----
 
 ## Project Workflow
 
